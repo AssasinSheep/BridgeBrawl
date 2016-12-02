@@ -1,0 +1,55 @@
+    Game commands
+    
+    /bridgebrawl    (displays if a game is currently running)
+    
+    /bridgebrawl reload    (reloads the config)
+    
+    /bridgebrawl   ForceStart  (forcestarts the game)
+    
+    /bridgebrawl join     (joins the brigdebrawl game)
+    
+    /bridgebrawl leave    (leaves the brigdebrawl game)
+    
+    /bridgebrawl Edit     (opens a gui where you can edit where the glowstone location will be etc, spawns etc)
+    
+    /bridgebrawl kick (player)   (kicks them from the game)
+    
+    /bridgebrawl kickall   (kicks all players from the game)
+    
+    
+    Locations that can be set 
+    
+    
+    - waiting hub  
+    - kicked lobby
+    - game over lobby
+    - red base
+    - blue base
+    
+    
+    
+    
+    Prevent players from leaving and rejoining:
+    
+    -when players leave and was in game it removes 1 player from the scoreboard (for that team)  if it becomes low the teams will 
+    shuffle to balance out until it becomes to low then the game stops or something like that
+    
+    -joining in the regions will kick you to the kicked lobby.
+    
+    
+    
+    
+    
+              Regions required using worldguard:
+    
+    - Lobby region:
+    
+    - kicked lobby:
+    
+    - Blue spawn
+    
+    - red spawn
+    
+    - game over lobby optional by default its just kicked lobby
+    
+    
